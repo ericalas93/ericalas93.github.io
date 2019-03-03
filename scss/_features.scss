@@ -10,10 +10,21 @@ section.features {
             margin-bottom: 0;
         }
     }
+
+    .device {
+        .screen {
+            img {
+                height: 100%;
+            }
+        }
+    }
     .device-container,
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
+        .fas--extramargin {
+            margin-bottom: 24px;
+        }
     }
     .device-container {
         margin-bottom: 100px;

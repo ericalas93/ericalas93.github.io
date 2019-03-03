@@ -35,7 +35,7 @@
             > a:focus {
                 color: $gray-darker;
                 &:hover {
-                    color: $theme-primary;
+                    color: $tapstr-color;
                 }
             }
         }
@@ -60,7 +60,7 @@
             color: fade(white, 70%);
             &:hover,
             &:focus {
-                color: white;
+                color: $tapstr-color;
             }
         }
         .navbar-nav > li > a,
@@ -73,21 +73,35 @@
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .9);
             background-color: white;
-                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             .navbar-brand {
                 color: $tapstr-color;
                 &:hover,
                 &:focus {
-                    color: $theme-primary;
+                    color: $tapstr-color;
                 }
             }
             .navbar-nav > li > a,
             .navbar-nav > li > a:focus {
                 color: $gray-darker;
                 &:hover {
-                    color: $theme-primary;
+                    color: $tapstr-color;
                 }
             }
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        .navbar-brand {
+            color: $tapstr-color;
+            &:hover,
+            &:focus {
+                color: $tapstr-color;
+            }
+        }
+
+        &.navbar-shrink {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
         }
     }
 }

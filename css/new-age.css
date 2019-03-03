@@ -66,7 +66,7 @@ section h2 {
 }
 
 .device .screen img {
-  height: 510px;
+  height: 100%;
 }
 
 #mainNav {
@@ -120,7 +120,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fff;
+  color: #fa5770;
 }
 
 @media (max-width: 375px) {
@@ -145,7 +145,7 @@ section h2 {
     color: fade(white, 70%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: white;
+    color: #fa5770;
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
@@ -165,7 +165,7 @@ section h2 {
     color: #fa5770;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fff;
+    color: #fa5770;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -173,7 +173,20 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fff;
+    color: #fa5770;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #mainNav .navbar-brand {
+    color: #fa5770;
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #fa5770;
+  }
+  #mainNav.navbar-shrink {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
 }
 
@@ -299,10 +312,19 @@ section.features .section-heading p {
   margin-bottom: 0;
 }
 
+section.features .device .screen img {
+  height: 100%;
+}
+
 section.features .device-container,
 section.features .feature-item {
   max-width: 325px;
   margin: 0 auto;
+}
+
+section.features .device-container .fas--extramargin,
+section.features .feature-item .fas--extramargin {
+  margin-bottom: 24px;
 }
 
 section.features .device-container {
@@ -344,10 +366,18 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
-  background-image: url("https://yoldemir.github.io/tapstr/img/bg-masthead.jpg");
-  background-position: center;
-  background-size: cover;
+  padding: 200px 0;
+  background-color: #222222;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 section.cta .cta-content {
@@ -374,7 +404,6 @@ section.cta .overlay {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 section.contact {
