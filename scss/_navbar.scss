@@ -10,7 +10,7 @@
         @include heading-font;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: darken($tapstr-color, 10%);
         }
     }
     .navbar-toggler {
@@ -45,7 +45,7 @@
             color: $tapstr-color;
             &:hover,
             &:focus {
-                color: $tapstr-color;
+                color: darken($tapstr-color, 10%);
             }
         }
 
@@ -60,7 +60,7 @@
             color: fade(white, 70%);
             &:hover,
             &:focus {
-                color: $tapstr-color;
+                color: darken($theme-primary, 10%);
             }
         }
         .navbar-nav > li > a,
@@ -78,7 +78,7 @@
                 color: $tapstr-color;
                 &:hover,
                 &:focus {
-                    color: $tapstr-color;
+                    color: darken($tapstr-color, 10%);
                 }
             }
             .navbar-nav > li > a,
@@ -96,7 +96,7 @@
             color: $tapstr-color;
             &:hover,
             &:focus {
-                color: $tapstr-color;
+                color: darken($tapstr-color, 10%);
             }
         }
 
