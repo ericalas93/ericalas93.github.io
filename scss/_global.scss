@@ -55,3 +55,11 @@ section {
     font-family: "Milkshake";
     src: url("../fonts/Milkshake.ttf");
 }
+
+.device {
+    .screen {
+        img {
+            height: 510px;
+        }
+    }
+}
