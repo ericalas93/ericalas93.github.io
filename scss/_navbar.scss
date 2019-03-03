@@ -48,6 +48,10 @@
                 color: $tapstr-color;
             }
         }
+
+        &.navbar-shrink {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
     }
     @media (min-width: 992px) {
         border-color: transparent;
@@ -69,6 +73,7 @@
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .9);
             background-color: white;
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             .navbar-brand {
                 color: $tapstr-color;
                 &:hover,

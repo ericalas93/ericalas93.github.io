@@ -3,8 +3,8 @@ section.download {
     background: $gray-darker !important;
     position: relative;
     padding: 150px 0;
-    font-family: Rubik;
     h2 {
+        font-family: Rubik;
         font-size: 50px;
         margin-top: 0;
         color: $theme-primary;
@@ -39,6 +39,7 @@ section.download {
     @media(min-width: 768px) {
         h2 {
             font-size: 70px;
+            font-family: Rubik;
         }
     }
 }
