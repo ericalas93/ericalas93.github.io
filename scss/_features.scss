@@ -39,4 +39,10 @@ section.features {
             -webkit-text-fill-color: transparent;
         }
     }
+
+     @media (max-width: 375px) {
+        .device-container {
+            display: none;
+        }
+    }
 }

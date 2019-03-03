@@ -332,6 +332,12 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 375px) {
+  section.features .device-container {
+    display: none;
+  }
+}
+
 section.cta {
   position: relative;
   padding: 250px 0;
