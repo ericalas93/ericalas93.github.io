@@ -312,10 +312,6 @@ section.features .section-heading p {
   margin-bottom: 0;
 }
 
-section.features .device .screen img {
-  height: 100%;
-}
-
 section.features .device-container,
 section.features .feature-item {
   max-width: 325px;
